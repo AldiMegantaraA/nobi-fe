@@ -1,0 +1,41 @@
+.navbar{
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  .img-logo{
+    width: 30%;
+    height: auto;
+  }
+
+  @media screen and (max-width:786px){
+    .img-logo{
+      width: 50%;
+      height: auto;
+    }
+    .menu-item{
+      display: flex;
+      align-items: center;
+      .option{
+        margin: 0 2vmin;
+        padding: 20px;
+        color: white;
+      }
+      .ver-line{
+        display: none;  
+      }
+    }
+  }
+  .menu-item{
+    display: flex;
+    align-items: center;
+    .option{
+      margin: 0 2vmin;
+      color: white;
+    }
+    .ver-line{
+      border-left: 1px solid white;
+      height: 4vmin;
+      width: 1px;  
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.original-button{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    width: 200px;
+    height: 5vh;
+    padding: 2px 8px;
+    border: none;
+    margin: 12px 0;
+
+    hr{
+        width: 2px;
+        height: 3vh;
+        border-left: 2px solid white;
+        position: relative;
+        left: 14%;
+    }
+}

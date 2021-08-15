@@ -1,0 +1,10 @@
+body {
+  font-family: 'Public Sans';
+  /* box-sizing: border-box; */
+}
+
+@media screen and (max-width: 786px){
+  h1, h2, h3, h4, p{
+    text-align: center;
+  }
+}

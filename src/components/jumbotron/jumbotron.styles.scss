@@ -1,0 +1,86 @@
+.jumbotron{
+    // height:100vh;
+    background:#001436;
+    border-radius: 0;
+    background-image: linear-gradient(180deg, black, #001436);
+    margin-top: 8vh;
+    display: none;
+
+    .container{
+        h1{
+            text-align: center;
+            font-size: 8vmin;
+        }
+        h4{
+            text-align: center;
+            font-size: 4vmin;
+        }
+        .download-app{
+            text-align: center;
+        }
+    }
+}
+.mobile{
+    display: block;
+    background:#001436;
+    border-radius: 0;
+    background-image: linear-gradient(180deg, black, #001436);
+    margin-top: 8vh;
+    padding: 40px 0;
+
+    .container{
+        h1{
+            text-align: center;
+            font-size: 8vmin;
+        }
+        h4{
+            text-align: center;
+            font-size: 4vmin;
+        }
+        .download-app{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (min-width: 786px){
+    .mobile{
+        display: none;
+        background:#001436;
+        border-radius: 0;
+        background-image: linear-gradient(180deg, black, #001436);
+        margin-top: 10vh;
+        height:68vh;
+        .container{
+            h1{
+                text-align: left;
+            }
+            h4{
+                text-align: left;
+            }
+            .download-app{
+                text-align: left;
+            }
+        }
+        
+    }
+    .jumbotron{
+        display: block;
+        background:#001436;
+        border-radius: 0;
+        background-image: linear-gradient(180deg, black, #001436);
+        margin-top: 10vh;
+        height:68vh;
+        .container{
+            h1{
+                text-align: left;
+            }
+            h4{
+                text-align: left;
+            }
+            .download-app{
+                text-align: left;
+            }
+        }
+    }
+}

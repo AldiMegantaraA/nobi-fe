@@ -1,0 +1,31 @@
+
+.navbox{
+    width: 100%;
+    padding: 0 12vw;
+    .nav-box-item{
+        border: 2px solid #015eff;
+        border-radius: 10px;
+        padding: 0.5px;
+        display: flex;
+        flex-direction: row;
+        .btn1{
+            border-radius: 8px 0 0 8px;
+        }
+        .btn2{
+            border-radius: 8px;
+        }
+        .btn3{
+            border-radius: 8px;
+        }
+        .btn:focus,
+        .btn:active,
+        .btn.active {
+            background-color: #015eff;
+            border-color: #015eff;
+            color: white;
+        }
+        .nav-link{
+            font-size: 2vmin;
+        }
+    }
+}
